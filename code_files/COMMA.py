@@ -37,10 +37,10 @@ first = date(2016,12,18)
 
 def initApi():
 
-    consumer_key = 'NG1oBtrIIqFPA9MziCJpz42oq'
-    consumer_secret = 'dHU8DMzuj6PdOgsRzl6OiRZSDvJEeEWwDZ0YJeuNyveYNjFPBx'
-    access_token = '723774909948801024-qlhSF3eL6wfdTPcTI4QelTltc87HsqH'
-    access_secret = 'maaiLX1LzYZcgCZkfU9dWEhurxyRwcK2zKxHcjyD91TIF'
+    consumer_key = ''
+    consumer_secret = ''
+    access_token = ''
+    access_secret = ''
 
     auth = OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_secret)
